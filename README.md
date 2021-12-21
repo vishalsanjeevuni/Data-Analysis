@@ -16,7 +16,7 @@ For my data mining I used two sources: [kaggle](https://www.kaggle.com/nationalp
 
 Firstly, finding the number of distinct species in the data. In the column scientific_name we have 5,541 unique species. Vascular plants are by far the largest share of species with 4,470 in the data with reptiles being the fewest with 79. Moreover, Conservation_status column has 4 categories, Species of Concern, Endangered, Threatened, In Recovery, and nan values. Furthermore, There are 5,633 nan values which means that they are species without concerns. On the other hand there are 161 species of concern, 16 endangered, 10 threatened, and 4 in recovery. Ultimately, the Observations dataset has only 4 national parks but there are 3,314,739 sightings in 7 days... that's a lot of observations!
 
-![](images/medium_3.png)
+![(images/medium_3.png)]
 
 
 ### Analysis
@@ -34,8 +34,8 @@ In the exploration, a lot of nan values were detected. These values will need to
 
 Next, checking the different categories that are nested in the conservation_status column except for the ones that do not require an intervention. For those in the Endangered status, 7 were mammals and 4 were birds. In the In Recovery status, there were 3 birds and 1 mammal, which could possibly mean that the birds are bouncing back more than the mammals.
 
-![](/Users/Sunny/Desktop/table.png)
-![](/Users/Sunny/Desktop/chart.png)
+![(/Users/Sunny/Desktop/table.png)]
+![(/Users/Sunny/Desktop/chart.png)]
 
 
 ### Most dangerous circuits
