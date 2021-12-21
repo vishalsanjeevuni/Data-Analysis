@@ -30,7 +30,12 @@ The column conservation_status has several possible values:
 - Endangered: seriously at risk of extinction
 - In Recovery: formerly Endangered, but currently neither in danger of extinction throughout all or a significant portion of its range
 
-![](images/medium_4.png)
+In the exploration, a lot of nan values were detected. These values will need to be converted to No Intervention.
+
+Next, checking the different categories that are nested in the conservation_status column except for the ones that do not require an intervention. For those in the Endangered status, 7 were mammals and 4 were birds. In the In Recovery status, there were 3 birds and 1 mammal, which could possibly mean that the birds are bouncing back more than the mammals.
+
+![](/Users/Sunny/Desktop/table.png)
+![](/Users/Sunny/Desktop/chart.png)
 
 
 ### Most dangerous circuits
